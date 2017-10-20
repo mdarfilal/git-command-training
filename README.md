@@ -11,10 +11,11 @@ git rebase develop
 
 ## Return to develop and merge changes
 git checkout develop
+
 git merge us-init
 
-# Delete local branch
+## Delete local branch
 git branch -d us-init
 
-# Delete remote branch
+## Delete remote branch
 git push origin :us-init
